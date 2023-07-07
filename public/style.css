@@ -1,0 +1,177 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+
+/* HEADER */
+
+.header{
+    border-bottom: 0.06rem solid white;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+.nav-comp{
+    text-decoration: none;
+    padding: 1.2rem 1.4rem;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-comp:hover{
+    border-bottom: 0.2rem solid white;
+}
+
+.header ul{
+    position: absolute;
+    right: 1.6rem;
+}
+
+.toggle-btn{
+    color: white;
+}
+
+/* HOME */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-heading{
+    font-weight: bold;
+    padding-bottom: 0.7rem;
+}
+
+.join-us-btn{
+    padding: 0.6rem 1.8rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
+
+.join-us-btn:hover{
+    box-shadow: 0 0 5px rgba(246, 246, 246, 0.924);
+}
+
+.home-vid{
+    border: 1rem solid rgb(125, 125, 125);
+    height: 22rem;
+    width: 49.5rem;
+    margin: 2.7rem;
+}
+
+/* ABOUT */
+
+.about, .events, .quizzes, .faq{
+    padding: 5rem 7rem;
+}
+
+.all-hrs{
+    width: 18rem;
+    opacity: 1;
+    margin: 0 0 0.7rem;
+}
+
+.paras{
+    padding: 2.4rem 0 1rem 0;
+}
+
+.all-headings{
+    margin: 0.14rem;
+}
+
+/* PAST EVENTS */
+
+.h3-heading, .event-name{
+    margin: 0;
+}
+
+.past-events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-card img{
+    height: 19rem;
+    width: 14rem;
+    border-radius: 3px;
+    padding-bottom: 0.6rem;
+}
+
+.each-card{
+    padding: 3rem;
+}
+
+.each-card p{
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+/* QUIZZES */
+
+.quizzes img{
+    height: 20rem;
+    padding: 0 5rem;
+}
+
+.quizzes-content{
+    display: flex;
+}
+
+.quizzes-para{
+    padding: 4rem 0;
+}
+
+/* INSTAGRAM */
+
+.insta{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 7rem;
+}
+
+.insta img{
+    height: 30rem;
+    border-radius: 9px;
+}
+
+.insta-text{
+    font-weight: bold;
+}
+
+.insta-cont{
+    width: 37rem;
+    padding: 6rem 10rem 0 0;
+}
+
+/* FAQs */
+
+.each-ques{
+    display: flex;
+}
+
+.down-arrow{
+    position: absolute;
+    right: 9rem;
+}
+
+.faq-hr{
+    margin: 0 0 0.7rem;
+}
+
+.question{
+    padding-right: 3rem;
+}
